@@ -1,0 +1,7 @@
+module(
+    name = "foo",
+    version = "0.0.0",
+)
+
+#bazel_dep(name = "rules_cc", version = "0.0.10")
+bazel_dep(name = "rules_cc", version = "0.1.1")

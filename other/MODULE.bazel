@@ -1,0 +1,10 @@
+module(
+    name = "other",
+    version = "0.0.0",
+)
+
+bazel_dep(name = "foo", version = "0.0.0")
+local_path_override(
+    module_name = "foo",
+    path = "../",
+)
